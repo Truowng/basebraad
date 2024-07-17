@@ -75,18 +75,22 @@ img {
   text-transform: uppercase;
   font-size: 24px;
   letter-spacing: 0.1em;
-  margin-bottom: 40px;
+  margin-bottom: 20px;
+  text-align: center;
+  display: block;
 }
 .heading-block .title {
   font-family: "Londrina Solid", sans-serif;
-  font-size: 150px;
+  font-size: 100px;
   text-transform: uppercase;
   text-shadow: -12px -12px 0 #00d0ff, 12px -12px 0 #00d0ff, -12px 12px 0 #00d0ff, 12px 12px 0 #00d0ff, -12px 0 0 #00d0ff, 12px 0 0 #00d0ff, 0 -12px 0 #00d0ff, 0 12px 0 #00d0ff;
+  text-align: center;
 }
 .heading-block .desc {
-  margin-top: 50px;
+  margin-top: 20px;
   font-size: 24px;
   letter-spacing: 0.1em;
+  text-align: center;
 }
 
 #header {
@@ -112,9 +116,7 @@ img {
   }
 }
 #header .header-logo {
-  font-size: 30px;
-  color: #fff;
-  text-shadow: -4px -4px 0 #00d0ff, 4px -4px 0 #00d0ff, -4px 4px 0 #00d0ff, 4px 4px 0 #00d0ff, -4px 0 0 #00d0ff, 4px 0 0 #00d0ff, 0 -4px 0 #00d0ff, 0 4px 0 #00d0ff;
+  width: 50px;
 }
 #header .header-nav {
   display: flex;
@@ -230,6 +232,7 @@ img {
   justify-content: space-between;
   align-items: center;
   gap: unset;
+  margin-top: 100px;
 }
 @media only screen and (max-width: 991px) {
   #banner {
@@ -268,7 +271,8 @@ img {
   width: fit-content;
 }
 .marquee-slider .text {
-  font-size: 50px;
+  font-size: 40px;
+  text-align: center;
   text-transform: uppercase;
   text-shadow: -5px -5px 0 #00d0ff, 5px -5px 0 #00d0ff, -5px 5px 0 #00d0ff, 5px 5px 0 #00d0ff, -5px 0 0 #00d0ff, 5px 0 0 #00d0ff, 0 -5px 0 #00d0ff, 0 5px 0 #00d0ff;
   white-space: nowrap;

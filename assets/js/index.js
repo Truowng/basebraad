@@ -22,8 +22,11 @@ if (document.querySelector(".marquee-slider")) {
       delay: 1,
     },
     breakpoints: {
-      991: {
+      767: {
         slidesPerView: 2,
+      },
+      991: {
+        slidesPerView: 3,
       },
     },
   });

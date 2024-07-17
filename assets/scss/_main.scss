@@ -70,21 +70,25 @@ img {
     text-transform: uppercase;
     font-size: 24px;
     letter-spacing: 0.1em;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
+    text-align: center;
+    display: block;
   }
   .title {
     font-family: $font-londrina;
-    font-size: 150px;
+    font-size: 100px;
     text-transform: uppercase;
     text-shadow: -12px -12px 0 #00d0ff, 12px -12px 0 #00d0ff,
       -12px 12px 0 #00d0ff, 12px 12px 0 #00d0ff, -12px 0 0 #00d0ff,
       12px 0 0 #00d0ff, 0 -12px 0 #00d0ff, 0 12px 0 #00d0ff;
+    text-align: center;
   }
 
   .desc {
-    margin-top: 50px;
+    margin-top: 20px;
     font-size: 24px;
     letter-spacing: 0.1em;
+    text-align: center;
   }
 }
 
@@ -103,11 +107,12 @@ img {
     }
   }
   .header-logo {
-    font-size: 30px;
-    color: $white;
-    text-shadow: -4px -4px 0 #00d0ff, 4px -4px 0 #00d0ff, -4px 4px 0 #00d0ff,
-      4px 4px 0 #00d0ff, -4px 0 0 #00d0ff, 4px 0 0 #00d0ff, 0 -4px 0 #00d0ff,
-      0 4px 0 #00d0ff;
+    // font-size: 30px;
+    // color: $white;
+    // text-shadow: -4px -4px 0 #00d0ff, 4px -4px 0 #00d0ff, -4px 4px 0 #00d0ff,
+    //   4px 4px 0 #00d0ff, -4px 0 0 #00d0ff, 4px 0 0 #00d0ff, 0 -4px 0 #00d0ff,
+    //   0 4px 0 #00d0ff;
+    width: 50px;
   }
   .header-nav {
     @include flex(unset, center, unset);
@@ -208,6 +213,7 @@ img {
 
 #banner {
   @include flex(space-between, center, unset);
+  margin-top: 100px;
   @include tablet {
     height: unset;
     margin-top: 50px;
@@ -238,7 +244,8 @@ img {
   }
 
   .text {
-    font-size: 50px;
+    font-size: 40px;
+    text-align: center;
     text-transform: uppercase;
     text-shadow: -5px -5px 0 #00d0ff, 5px -5px 0 #00d0ff, -5px 5px 0 #00d0ff,
       5px 5px 0 #00d0ff, -5px 0 0 #00d0ff, 5px 0 0 #00d0ff, 0 -5px 0 #00d0ff,
